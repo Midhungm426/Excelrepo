@@ -30,7 +30,9 @@ public class Excelcode
 		XSSFRow r= sh.getRow(i);
 		XSSFCell c= r.getCell(j);
 		int a= (int) c.getNumericCellValue();
+		System.out.println("Hi");
 		return String.valueOf(a);
+		
 		
 	}
 }
